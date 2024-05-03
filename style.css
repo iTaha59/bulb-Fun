@@ -7,12 +7,13 @@
     width: 100%;
     background-color: black;
     text-align: center;
+    margin: auto;
 }
 
 #imgOff {
     margin: auto;
 }
-#imgOn {
+#imgOn,#red,#green,#blue,#yellow {
     margin: auto;
     display: none;
 }
@@ -22,18 +23,28 @@ img{
 }
 
 .btn{
-    margin: auto;
-    width: 50%;
+    /* background-color: black; */
+    width: 10%;
+    height: 20%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px white;
 }
 
 button{
-    width: 120px;
-    font-size: xx-large;
-    color: black;
-    background-color: white;
+    width: 90%;
+    height: 20%;
+    font-size: large;
+    color: white;
+    background-color: black;
     border-radius: 50px;
     text-align: center;
     font-weight: bolder;
+    box-shadow: 10px 10px 5px gray inset;
 }
